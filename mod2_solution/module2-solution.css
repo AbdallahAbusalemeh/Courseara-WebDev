@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+  width: 100%;
+  position: absolute;
+}
+h1 {
+	text-align: center;
+	font-size: 30;
+
+
+}
+
+@media (min-width: 992px) {
+  .box1 {
+    width: 31%;
+  }
+  .box2 {
+    width: 31%;
+  }
+  .box3 {
+  	width: 31% 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .box1 {
+    width: 48%;
+  }
+  .box2 {
+    width: 48%;
+  }
+  .box3 {
+  	width: 48% 
+  }
+}
+@media (max-width: 767px) {
+  .box1 {
+    width: 100%;
+  }
+  .box2 {
+    width: 100%;
+  }
+  .box3 {
+  	width: 100% 
+  }
+}
+
+ .box1 {
+	float: left;
+	padding: 0px;
+	border-width: 2px;
+	border-color: black;
+	border: solid;
+	margin: 1%;
+	background-color: grey;
+	position: relative;
+}
+ .box2 {
+	float: left;
+	padding: 0px;
+	border-width: 2px;
+	border-color: black;
+	border: solid;
+	margin: 1%;
+	background-color: grey;
+	position: relative;
+}
+ .box3 {
+	float: left;
+	padding: 0px;
+	border-width: 2px;
+	border-color: black;
+	border: solid;
+	margin: 1%;
+	background-color: grey;
+	position: relative;
+}
+.subhead1 {
+	border: black 2px solid;
+	background-color: lightpink;
+	font-size: 30px;
+	float : right;
+
+}
+.subhead2 {
+	border: black 2px solid;
+	background-color: darkred;
+	font-size: 30px;
+	float : right;
+}
+.subhead3 {
+	border: black 2px solid;
+	background-color: lightyellow;
+	font-size: 30px;
+	float : right;
+	margin-left: 300px;
+}
+.descriptivetext {
+	clear: right;
+}
+
